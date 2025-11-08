@@ -32,13 +32,8 @@ You can add books, delete books, search by ISBN, sort the list by rating, split 
 .
 ├── book.c
 ├── book.h
-<<<<<<< HEAD
 ├── cli_utils.c
 ├── cli_utils.h
-=======
-├── ui_utils.c
-├── ui_utils.h
->>>>>>> 0eeb829a82b73b9c1cd7d8efe8dd20e6a6a4d9bd
 └── main.c
 ```
 
@@ -49,11 +44,7 @@ You can add books, delete books, search by ISBN, sort the list by rating, split 
 Compile like this:
 
 ```bash
-<<<<<<< HEAD
 gcc -o book_manager main.c book.c cli_utils.c
-=======
-gcc -o book_manager main.c book.c ui_utils.c
->>>>>>> 0eeb829a82b73b9c1cd7d8efe8dd20e6a6a4d9bd
 ```
 
 Then run:
@@ -97,8 +88,4 @@ Then later:
 
 - Everything is stored dynamically (malloc / free).
 - When split mode is active, you actively work with one of two linked lists instead of the main one.
-<<<<<<< HEAD
 - Memory routines allow selective or full freeing.
-=======
-- Memory routines allow selective or full freeing.
->>>>>>> 0eeb829a82b73b9c1cd7d8efe8dd20e6a6a4d9bd
