@@ -17,8 +17,8 @@ typedef struct{
     Book *main_list;
     Book *high_rated;
     Book *low_rated;
-    Book *last_added;  // Track most recently added book
-    int is_split;
+    Book *last_added;  // variable to track the most recently added book
+    int is_split;      // indicates if the library is split 
 }Library;
 
 // Library management

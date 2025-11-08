@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include "book.h"
-#include "ui_utils.h"
+#include "cli_utils.h"
 
 
 // ============= COMMAND HANDLER PROTOTYPES =============
@@ -202,7 +202,7 @@ static void handleFreeList(Library *lib){
             printError("No list to free.");
         }
         else{
-            // Free main list manually
+            // Manually free the main list
             Book *temp = lib->main_list;
             while (temp){
                 Book *next = temp->next;

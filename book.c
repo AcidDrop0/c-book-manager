@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "book.h"
-#include "ui_utils.h"
+#include "cli_utils.h"
 
 // ============= LIBRARY MANAGEMENT =============
 
